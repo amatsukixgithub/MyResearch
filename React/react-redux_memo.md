@@ -8,6 +8,10 @@ Qiita, NetFlix, AirBNBとかで使われている。
 
 DOMの変更箇所がどこなのか気にしなくてよくなる。
 
+下記記事も良さげ。
+[Qiita - 今から始めるReact入門 〜 React の基本](https://qiita.com/TsutomuNakamura/items/72d8cf9f07a5a30be048)
+[Qiita - 5分で理解する React.js](https://qiita.com/tomzoh/items/7fabe7cb57dd96425867)
+
 ## Create React App
 
 以前のReactでは様々なパッケージを自分でインストールする必要があり、面倒だった。  
@@ -456,6 +460,9 @@ Actionを返す関数。
 アクションクリエイターをエクスポートしてviewを担当するコンポーネント側でインポートして  
 あるイベントを掴んだ時に当該のアクションクリエイターをインポートして  
 適切な状態遷移を実行させるための仕組み
+
+exportについては下記参照
+[Qiita - ES6のexportについて詳しく調べた](https://qiita.com/senou/items/a2f7a0f717d8aadabbf7)
 
 今回の場合は`+1するインクリメントのオブジェクト`と`-1するデクリメントのオブジェクト`の  
 アクションクリエイターを定義。
